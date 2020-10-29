@@ -15,19 +15,20 @@
 #include"ReadFile.h"
 int main (void)
 {
-    char fileName[20];
+    char fileName[40];
     char **ptr;
     int column,i;
 
+    strcpy(fileName,menu());
     askFile(char *fileName[]);//get name of file
-
     column=readFile(fileName,&ptr);//read file and save it on array
-
+    /*
     printf("--------------");
     for(i=0;i<column;i++)
     {
         printf("%s",ptr[i]);
     }
+    */
 
-    separate();//use token to separate array
+    format();//use token to separate array
 }
