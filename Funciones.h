@@ -2,8 +2,7 @@
 //  Funciones.h
 //  
 //
-//  Created by Castro Bouquet Ildefonso on 27/09/2020.
-//  Created by Venegas Ramirez Giovanni Josue on 27/09/2020.
+//  Created by Castro Bouquet Ildefonso on 29/10/2020.
 //
 #ifndef Funciones_h
 #define Funciones_h
@@ -16,11 +15,11 @@
     #define EXTERN extern
 #endif
 
-EXTERN char menu();
+EXTERN char menu(char *fileName);
 
-EXTERN void askFile(char *fileName[]);
+EXTERN void format(char ***ptr,float ***ptr2,int column);
 
-EXTERN void format();
+EXTERN int readFile (char fileName[],char ***ptr);
 
 #undef Funciones_IMPORT
 #undef EXTERN
