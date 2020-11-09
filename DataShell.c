@@ -12,7 +12,8 @@
 #include<string.h>
 
 /* Custom Libraries */
-#include"Funciones.h"
+#include"Motor.h"
+#include"Vista.h"
 
 /* Main Function */
 int main (void)
@@ -34,7 +35,7 @@ int main (void)
     }
     */
     format(&ptr,&ptr2,column);//use token to separate array
-    for(j=0;j<column;j++)
+    /*for(j=0;j<column;j++)
     {
         for(i=0;i<=200;i++)
         {
@@ -54,5 +55,5 @@ int main (void)
                 break;
             }
         }
-    }
+    }*/
 }

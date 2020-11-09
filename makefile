@@ -1,3 +1,3 @@
 
-DataShell: DataShell.c Funciones.c
-	gcc -o DataShell DataShell.c Funciones.c
+DataShell: DataShell.c Motor.c Vista.c
+	gcc -o DataShell DataShell.c Motor.c Vista.c
